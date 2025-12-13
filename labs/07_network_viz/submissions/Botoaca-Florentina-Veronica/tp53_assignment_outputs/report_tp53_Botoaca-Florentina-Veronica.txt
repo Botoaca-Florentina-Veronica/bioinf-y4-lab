@@ -1,0 +1,60 @@
+============================================================
+RAPORT ANALIZĂ TP53 - REȚEA CO-EXPRESIE
+Student: Botoaca-Florentina-Veronica
+============================================================
+
+1. DATE ȘI PREPROCESARE
+----------------------------------------
+• Gene inițiale: 200
+• Probe: 50
+• Gene după filtrare varianță: 100
+• Transformare: log2(x+1)
+• Prag varianță: percentila 50%
+
+2. REȚEA ȘI MODULE
+----------------------------------------
+• Metodă corelație: Spearman
+• Prag adiacență: 0.7
+• Noduri în rețea: 100
+• Muchii în rețea: 1650
+• Module detectate: 3
+• Algoritm: Louvain
+
+3. GENE HUB
+----------------------------------------
+Top 10 gene hub:
+31. SERPINA1        | Modul:  2 | Score: 0.1970
+32. SERPINA3        | Modul:  2 | Score: 0.1970
+36. PGR             | Modul:  2 | Score: 0.1970
+35. ESR1            | Modul:  2 | Score: 0.1970
+34. TTR             | Modul:  2 | Score: 0.1970
+33. TF              | Modul:  2 | Score: 0.1970
+66. YWHAZ           | Modul:  2 | Score: 0.1970
+65. UBC             | Modul:  2 | Score: 0.1970
+64. TBP             | Modul:  2 | Score: 0.1970
+63. SDHA            | Modul:  2 | Score: 0.1970
+
+4. MODUL PRINCIPAL
+----------------------------------------
+• Modul: 2
+• Număr gene: 40
+• Gene reprezentative: ACTB, AKT1, B2M, BRCA1, BRCA2, CCND1, CDH1, CDKN2A
+
+5. INTERPRETARE BIOLOGICĂ
+----------------------------------------
+Modulul principal conține gene potențial implicate în:
+• Reglarea ciclului celular
+• Apoptoză și supraviețuire celulară
+• Răspuns la daună ADN
+• Pathway-uri de semnalizare TP53
+
+6. INTEGRARE ÎN DISEASOME
+----------------------------------------
+Rețeaua TP53 se integrează în conceptul de diseasome prin:
+• Conexiuni cu alte boli legate de dereglarea celulară
+• Gene comune cu alte tipuri de cancer
+• Pathway-uri intersectate cu boli neurodegenerative
+
+============================================================
+ANALIZĂ COMPLETĂ
+============================================================

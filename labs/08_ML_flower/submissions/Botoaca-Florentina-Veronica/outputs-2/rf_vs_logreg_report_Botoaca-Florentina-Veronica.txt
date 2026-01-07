@@ -1,0 +1,35 @@
+Comparație Random Forest vs Logistic Regression
+Handle: Botoaca-Florentina-Veronica
+Dimensiune antrenare: N/A
+Dimensiune test: (10, 200)
+Număr clase: 3
+
+==================================================
+RANDOM FOREST
+==================================================
+              precision    recall  f1-score   support
+
+     Class_0       0.33      0.25      0.29         4
+     Class_1       0.29      0.67      0.40         3
+     Class_2       0.00      0.00      0.00         3
+
+    accuracy                           0.30        10
+   macro avg       0.21      0.31      0.23        10
+weighted avg       0.22      0.30      0.23        10
+
+Acuratețe: 0.300
+
+==================================================
+LOGISTIC REGRESSION
+==================================================
+              precision    recall  f1-score   support
+
+     Class_0       0.60      0.75      0.67         4
+     Class_1       0.00      0.00      0.00         3
+     Class_2       0.00      0.00      0.00         3
+
+    accuracy                           0.30        10
+   macro avg       0.20      0.25      0.22        10
+weighted avg       0.24      0.30      0.27        10
+
+Acuratețe: 0.300
